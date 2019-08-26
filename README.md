@@ -24,7 +24,7 @@ All settings get saved in the file 2-Coordinates.ini that gets created in the sa
 
 To re-run the setup, simply delete the ini file.
 
-Created in Autohotkey
+Created in Autohotkeys
 
 Download here: https://github.com/dobbelina/Playground/releases/download/v1.0-Windows/Replay.zip
 
