@@ -1,4 +1,4 @@
-# Auto-Resume Livestreams In Kodi
+# Auto-Resume Livestreams In Kods
 
 So what does it do?
 
