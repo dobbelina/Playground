@@ -4,7 +4,9 @@ So what does it do?
 
 It checks the colour on 2 different coordinates every 2 seconds on the screen.
 
-As soon as a video or stream cuts of or ends it hits p, (Play) resuming whatever you are watching.
+As soon as a video or stream cuts of or ends it hits p, (Play) resuming whatever you are watching,
+
+as the colour of your 2 skin coordinates will match.
 
 When executed the first time the user can input what command to send to kodi,(p = play)
 
