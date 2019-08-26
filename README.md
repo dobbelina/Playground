@@ -24,4 +24,6 @@ To re-run the setup, simply delete the ini file.
 
 Created in Autohotkey
 
+Download here: https://github.com/dobbelina/Playground/releases/download/v1.0-Windows/Replay.zip
+
 [![Github All Releases](https://img.shields.io/github/downloads/dobbelina/Playground/total.svg)]()
