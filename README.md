@@ -18,6 +18,12 @@ It's a zip archive, so no installation required, just extract ffmpeg.exe to a lo
 
 Now start FFMPEG_Recorder.exe and point to the location of ffmpeg.exe and choose a download location for the videos.
 
+After execution 2 xml files will be created in the same folder as FFMPEG_Recorder.exe, that is playercorefactory.xml & playercorefactory2.xml.
+
+Copy those to the %APPDATA%\Kodi\userdata\ folder.
+
+On the desktop a shortcut will be created called "FFMPEG_Recorder Default Change" that toggles between the 2 xml files making FFMPEG_Recorder.exe default player.
+
 
 
 # Auto-Resume Livestreams In Kodi
