@@ -7,7 +7,6 @@ I got bored testing different addons in regard to recording/downloading, as none
 so i decided to make use of ffmpeg configured as an external player.
 
 By doing that it will be avaliable for all addons that has playable links, and the download for most part goes on in the 
-
 background, so i can continue to use kodi while it is ongoing.
 
 You can even start multiple downloads at the same time if you wish, depending on what source you use.
