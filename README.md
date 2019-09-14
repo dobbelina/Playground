@@ -24,7 +24,7 @@ Copy those to the %APPDATA%\Kodi\userdata\ folder.
 
 On the desktop a shortcut will be created called "FFMPEG_Recorder Default Change" that toggles between the 2 xml files, making FFMPEG_Recorder.exe default player.
 
-This is necessary, as ***some addons don't respect the "Play using.." context menu** and will revert to the default player.
+This is necessary, as **some addons don't respect the "Play using.." context menu** and will revert to the default player.
 
 Press "Q" to stop an ongoing recording/download.
 
