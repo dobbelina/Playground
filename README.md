@@ -28,4 +28,4 @@ Created in Autohotkey
 
 Download here: https://github.com/dobbelina/Playground/releases/download/v1.0-Windows/Replay.zip
 
-[![Github All Releases](https://img.shields.io/github/downloads/dobbelina/Playground/total.svg)]()
+![GitHub Releases (by Release)](https://img.shields.io/github/downloads/dobbelina/Playground/v1.0-Windows/total)
