@@ -28,6 +28,10 @@ This is necessary, as **some addons don't respect the "Play using.." context men
 
 Press "Q" to stop an ongoing recording/download.
 
+Created in Autohotkey
+
+Download here:
+
 ---
 
 # Auto-Resume Livestreams In Kodi
