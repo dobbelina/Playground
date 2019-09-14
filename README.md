@@ -20,7 +20,7 @@ Download ffmpeg from here: https://ffmpeg.zeranoe.com/builds/
 
 It's a zip archive, so no installation required, just extract ffmpeg.exe.
 
-In my example I will extract it to here:C:\ffmpeg\bin\ffmpeg.exe
+
 
 # Auto-Resume Livestreams In Kodi
 
