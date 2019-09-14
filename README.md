@@ -28,7 +28,7 @@ This is necessary, as **some addons don't respect the "Play using.." context men
 
 Press "Q" to stop an ongoing recording/download.
 
-Delete ffmpeg.ini to re-start setup.
+Delete ffmpeg.ini to restart setup.
 
 Created in Autohotkey
 
