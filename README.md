@@ -1,6 +1,6 @@
 # FFmpeg Recorder
 
-I got bored testing different addons in regard to recording/downloading, as none of them seems to work the way i want.
+I got bored testing different addons in regard to downloading, as none of them seems to work the way i want.
 
 so i decided to make use of ffmpeg configured as an external player.
 
