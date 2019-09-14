@@ -26,6 +26,8 @@ On the desktop a shortcut will be created called "FFMPEG_Recorder Default Change
 
 This is necessary, as some addons don't respect the "Play using.." context menu and will revert to the default player.
 
+Press "Q" to stop an ongoing recording/download.
+
 
 
 # Auto-Resume Livestreams In Kodi
