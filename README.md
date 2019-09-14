@@ -1,5 +1,28 @@
 # FFmpeg Recorder
 
+Hi all!
+
+I got bored testing different addons in regard to recording/downloading, as none of them seems to work the way i want.
+
+so i decided to make use of ffmpeg configured as an external player.
+
+By doing that it will be avaliable for all addons that has playable links, and the download for most part goes on in the 
+
+background, so i can continue to use kodi while it is ongoing.
+
+You can even start multiple downloads at the same time if you wish, depending on what source you use.
+
+It's not perfect, but the best i found so far.
+
+
+So here's how i do it:
+
+Download ffmpeg from here: https://ffmpeg.zeranoe.com/builds/
+
+It's a zip archive, so no installation required, just extract ffmpeg.exe.
+
+In my example I will extract it to here:C:\ffmpeg\bin\ffmpeg.exe
+
 # Auto-Resume Livestreams In Kodi
 
 So what does it do?
