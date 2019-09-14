@@ -1,24 +1,22 @@
 # FFmpeg Recorder
 
-Hi all!
-
 I got bored testing different addons in regard to recording/downloading, as none of them seems to work the way i want.
 
 so i decided to make use of ffmpeg configured as an external player.
 
-By doing that it will be avaliable for all addons that has playable links, and the download for most part goes on in the 
-background, so i can continue to use kodi while it is ongoing.
+By doing that it will be avaliable for all addons that has playable links, and the download for most part goes on in the background, so i can continue to use kodi while it is ongoing.
 
 You can even start multiple downloads at the same time if you wish, depending on what source you use.
 
 It's not perfect, but the best i found so far.
 
-
 So here's how i do it:
 
 Download ffmpeg from here: https://ffmpeg.zeranoe.com/builds/
 
-It's a zip archive, so no installation required, just extract ffmpeg.exe.
+It's a zip archive, so no installation required, just extract ffmpeg.exe to a location of your choice.
+
+Now start FFMPEG_Recorder.exe and point to the location of ffmpeg.exe and choose a download location for the videos.
 
 
 
