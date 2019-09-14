@@ -16,7 +16,7 @@ Download ffmpeg from here: https://ffmpeg.zeranoe.com/builds/
 
 It's a zip archive, so no installation required, just extract ffmpeg.exe to a location of your choice.
 
-Now start FFMPEG_Recorder.exe that you got from here, and point to the location of ffmpeg.exe, after that choose a download location for the videos.
+Now start FFMPEG_Recorder.exe that you got from here, and point to the location of ffmpeg.exe, after that you will be prompted for a download location for the videos.
 
 After execution, 2 xml files will be created in the same folder as FFMPEG_Recorder.exe, that is playercorefactory.xml & playercorefactory2.xml.
 
