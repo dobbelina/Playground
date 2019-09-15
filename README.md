@@ -16,7 +16,7 @@ Download ffmpeg from here: https://ffmpeg.zeranoe.com/builds/
 
 It's a zip archive, so no installation required, just extract ffmpeg.exe to a location of your choice.
 
-For this purpose i have made a custom program for this to simplify, called FFMPEG_Recorder.exe that you can find a link to at the bottom.
+For this purpose i have made a custom program to simplify, called FFMPEG_Recorder.exe that you can find a link to at the bottom.
 
 Download it and put in the same folder as ffmpeg.exe,
 or some other permanent location from where it will work as a "dummy player" before running it.
