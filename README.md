@@ -15,12 +15,13 @@ So here's how i do it:
 Download ffmpeg from here: https://ffmpeg.zeranoe.com/builds/
 
 It's a zip archive, so no installation required, just extract ffmpeg.exe to a location of your choice.
+
 For this purpose i have made a custom program for this to simplify, called FFMPEG_Recorder.exe that you can find a link to at the bottom.
 
 Download it and put in the same folder as ffmpeg.exe,
 or some other permanent location from where it will work as a "dummy player" before running it.
 
-Now start FFMPEG_Recorder.exe that you got from here, and point to the location of ffmpeg.exe, 
+Now start FFMPEG_Recorder.exe, and point to the location of ffmpeg.exe, 
 after that you will be prompted for a download location for the videos.
 
 After execution, 2 xml files will be created in the same folder as FFMPEG_Recorder.exe, 
