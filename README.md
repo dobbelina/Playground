@@ -16,15 +16,19 @@ Download ffmpeg from here: https://ffmpeg.zeranoe.com/builds/
 
 It's a zip archive, so no installation required, just extract ffmpeg.exe to a location of your choice.
 
-Now start FFMPEG_Recorder.exe that you got from here, and point to the location of ffmpeg.exe, after that you will be prompted for a download location for the videos.
+Now start FFMPEG_Recorder.exe that you got from here, and point to the location of ffmpeg.exe, 
+after that you will be prompted for a download location for the videos.
 
-After execution, 2 xml files will be created in the same folder as FFMPEG_Recorder.exe, that is playercorefactory.xml & playercorefactory2.xml.
+After execution, 2 xml files will be created in the same folder as FFMPEG_Recorder.exe, 
+that is playercorefactory.xml & playercorefactory2.xml.
 
 Copy those to the %APPDATA%\Kodi\userdata\ folder.
 
-On the desktop a shortcut will be created called "FFMPEG_Recorder Default Change" that toggles between the 2 xml files, making FFMPEG_Recorder.exe default player.
+On the desktop a shortcut will be created called "FFMPEG_Recorder Default Change" that 
+toggles between the 2 xml files, making FFMPEG_Recorder.exe default player.
 
-This is necessary, as **some addons don't respect the "Play using.." context menu** and will revert to the default player.
+This is necessary, as **some addons don't respect the "Play using.." context menu** 
+and will revert to the default player.
 
 Press "Q" to stop an ongoing recording/download.
 
