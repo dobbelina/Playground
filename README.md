@@ -10,6 +10,7 @@ You can even start multiple downloads at the same time if you wish, depending on
 
 Added option is now that you can watch while you are downloading, this is especially useful on livestreams.
 
+This is done thru a "pipe", so no extra bandwith is being consumed.
 
 So here's how i do it:
 
