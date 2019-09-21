@@ -8,15 +8,16 @@ By doing that it will be avaliable for all addons that has playable links, and t
 
 You can even start multiple downloads at the same time if you wish, depending on what source you use.
 
-Most livestreams can also be downloaded.
+Added option is now that you can watch while you are downloading, this is especially useful on livestreams.
 
-It's not perfect, but the best i found so far.
 
 So here's how i do it:
 
 Download ffmpeg from here: https://ffmpeg.zeranoe.com/builds/
 
-It's a zip archive, so no installation required, just extract ffmpeg.exe to a location of your choice.
+It's a zip archive, so no installation required, just extract ffmpeg.exe & ffplay.exe to a location of your choice.
+
+They both have to be in the same folder.
 
 For this purpose i have made a custom program to simplify, called FFMPEG_Recorder.exe that you can find a link to at the bottom.
 
@@ -38,6 +39,15 @@ This is necessary, as **some addons don't respect the "Play using.." context men
 and will revert to the default player.
 
 Press "Q" to stop an ongoing recording/download.
+
+Default container format is mp4, but you can change it by editing the Options 
+
+section in ffmpeg.ini to any of the formats supported by ffmpeg, and there are plenty.
+
+In the Options section you can also edit the timestamp switch to off, 
+if you don't like it in the view window.
+
+Recorded video don't have a timestamp.
 
 Delete ffmpeg.ini to restart setup.
 
