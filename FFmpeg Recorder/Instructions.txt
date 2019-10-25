@@ -1,0 +1,19 @@
+Done!
+Now copy the created playercorefactory.xml & playercorefactory2.xml to this folder:
+
+A shortcut has been created on the desktop to toggle between
+the 2 playercorefactory files, making FFMPEG Recorder default player or not.
+Press "Q" to stop an ongoing recording/download.
+
+Default container format is mp4, but you can change it by editing the Options 
+section in ffmpeg.ini to any of the formats supported by ffmpeg, and there are plenty.
+In the Options section you can also edit the timestamp switch to off, 
+if you don't like it in the view window.
+Recorded video don't have a timestamp.
+
+To download from the youtube addon, adjust it's settings like this:
+Settings=>MPEG-DASH Disable
+
+Have fun with it!
+
+//Dobbelina
