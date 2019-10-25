@@ -56,7 +56,7 @@ Created in Autohotkey
 
 Download here: https://github.com/dobbelina/Playground/releases/download/v1.2-Windows/FFMPEG_Recorder-V2.zip
 
-![GitHub Releases (by Release)](https://img.shields.io/github/downloads/dobbelina/Playground/v1.2-Windows/total)
+![GitHub Releases (by Release)](https://img.shields.io/github/downloads/dobbelina/Playground/v1.3-Windows/total)
 
 ---
 
