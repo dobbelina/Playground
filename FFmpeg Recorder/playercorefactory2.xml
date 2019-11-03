@@ -1,0 +1,11 @@
+<playercorefactory>
+ <players>
+ <player name="FFMPEG Recorder" type="ExternalPlayer" audio="false" video="true">
+ <filename></filename>
+ <hideKodi>false</hideKodi>
+ </player>
+ </players>
+ <rules action="prepend">
+ <rule video="true" player="FFMPEG Recorder"/>
+ </rules>
+ </playercorefactory> 
