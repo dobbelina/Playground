@@ -14,7 +14,7 @@ This is done thru a "pipe", so no extra bandwith is being consumed.
 
 So here's how i do it:
 
-Download ffmpeg from here: https://ffmpeg.zeranoe.com/builds/
+Download ffmpeg from here: https://ffmpeg.org/download.html#build-windows
 
 It's a zip archive, so no installation required, just extract ffmpeg.exe & ffplay.exe to a location of your choice.
 
