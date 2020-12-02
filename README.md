@@ -58,6 +58,10 @@ Download here: https://github.com/dobbelina/Playground/releases/download/v1.3-Wi
 
 ![GitHub Releases (by Release)](https://img.shields.io/github/downloads/dobbelina/Playground/v1.3-Windows/total)
 
+## Screenshot
+
+<p align="center"><img src="FFmpeg_Recorder.png" width="600" /></p> 
+
 ---
 
 # Auto-Resume Livestreams In Kodi
