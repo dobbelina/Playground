@@ -55,7 +55,7 @@ Delete ffmpeg.ini to restart setup.
 Created in Autohotkey
 
 _Update 2020-12-12 **v1.4**_
- - _Added parsing of rtmp links to ffmpeg. (Like streamate)_
+ - _Added parsing of rtmp links to ffmpeg._
 
 If you have installed it before, simply overwrite the old exe with the new one.
 
