@@ -54,8 +54,9 @@ Delete ffmpeg.ini to restart setup.
 
 Created in Autohotkey
 
-Download here: https://github.com/dobbelina/Playground/releases/download/v1.3-Windows/FFMPEG_Recorder-v1.3.zip
+Download here: https://github.com/dobbelina/Playground/releases/download/v1.4-Windows/FFMPEG_Recorder-v1.4.zip
 
+![GitHub Releases (by Release)](https://img.shields.io/github/downloads/dobbelina/Playground/v1.4-Windows/total)
 ![GitHub Releases (by Release)](https://img.shields.io/github/downloads/dobbelina/Playground/v1.3-Windows/total)
 
 ## Screenshot
