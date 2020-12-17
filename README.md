@@ -57,6 +57,7 @@ Created in Autohotkey
 _Update 2020-12-17 **v1.5**_
  - _"Watch Only" option added_
  - _Added parsing of rtmp links to ffmpeg_
+  - _Added parsing of cookies_
  - _ffmpeg command editable in ffmpeg.ini_
  - _Improved detection of Kodi install location_
 
