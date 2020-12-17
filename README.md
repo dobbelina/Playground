@@ -54,15 +54,17 @@ Delete ffmpeg.ini to restart setup.
 
 Created in Autohotkey
 
-_Update 2020-12-12 **v1.4**_
+_Update 2020-12-17 **v1.5**_
+ - _"Watch Only" option added_
  - _Added parsing of rtmp links to ffmpeg_
  - _ffmpeg command editable in ffmpeg.ini_
+ - _Improved detection of Kodi install location_
 
 If you have installed it before, simply overwrite the old exe with the new one and delete ffmpeg.ini to restart setup.
 
-Download here: https://github.com/dobbelina/Playground/releases/download/v1.4-Windows/FFMPEG_Recorder-v1.4.zip
+Download here: https://github.com/dobbelina/Playground/releases/download/v1.5-Windows/FFMPEG_Recorder-v1.5.zip
 
-![GitHub Releases (by Release)](https://img.shields.io/github/downloads/dobbelina/Playground/v1.4-Windows/total)
+![GitHub Releases (by Release)](https://img.shields.io/github/downloads/dobbelina/Playground/v1.5-Windows/total)
 ![GitHub Releases (by Release)](https://img.shields.io/github/downloads/dobbelina/Playground/v1.3-Windows/total)
 
 ## Screenshot
