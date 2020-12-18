@@ -1,3 +1,9 @@
+;@Ahk2Exe-SetCopyright    Dobbelina
+;@Ahk2Exe-SetDescription  FFmpeg Recorder for Kodi
+;@Ahk2Exe-SetFileVersion   1.5.0.0
+;@Ahk2Exe-SetProductName   FFMPEG_Recorder.exe
+;@Ahk2Exe-SetProductVersion   1.5.0.0
+
 #NoEnv
 #SingleInstance force
 SetWorkingDir %A_ScriptDir%
@@ -80,7 +86,7 @@ if (Referer0)
 Referer:= "-referer " . chr(34) . Referer0 . chr(34)
 RegExMatch(Incoming, "(?i)(?<=Cookie=)(.*?)(?=&|$)", Cookie0)
 if (Cookie0)
-Cookie:= "-cookies " . chr(34) . "Cookie=" . Cookie0 . chr(34)
+Cookie:= "-cookies " . chr(34) . Cookie0 . chr(34)
 if (timestamp <> "on")
 Drawtext =
 PathFile := chr(34) . outputfolder . "\" . Datefile . container . chr(34)
