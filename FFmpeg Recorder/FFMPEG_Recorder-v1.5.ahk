@@ -5,7 +5,7 @@ IniName = ffmpeg.ini
 Incoming0 := A_Args[1]
 Incoming := UrlDecode(Incoming0)
 Clipboard := Incoming
-FormatTime, Datefile,, yyyy-MM-dd_hh-mm-ss.
+FormatTime, Datefile,, yyyy-MM-dd_HH-mm-ss.
 Drawtext := "-vf " . chr(34) . "drawtext=text='%{pts\:hms}':box=1:x=(w-tw)/2:y=h-(2*lh):fontsize=(h/30)" . chr(34)
 if (A_ScriptDir = A_AppData . "\Kodi\userdata")
 {
