@@ -106,14 +106,20 @@ Sleep 50
 label1:
 Progress, off
 Run, %Recorder% %Uagent% %Referer% %Cookie% -i %Link% %ffcommand% %PathFile%
+WinWait, ahk_exe ffmpeg.exe, , 2
+WinWaitClose, ahk_exe ffmpeg.exe
 ExitApp
 label2:
 Progress, off
 Run, %comspec% /c "%Recorder% %Uagent% %Referer% %Cookie% -i %Link% %ffcommand% %PathFile% -c copy -f mpegts - | %Mplayer% -fs %Drawtext% -autoexit -"
+WinWait, ahk_exe cmd.exe, , 2
+WinWaitClose, ahk_exe cmd.exe
 ExitApp
 label3:
 Progress, off
 Run, %Mplayer% -fs -autoexit %Uagent% %Referer% %Cookie% -i %Link%
+WinWait, ahk_exe ffplay.exe, , 2
+WinWaitClose, ahk_exe ffplay.exe
 ExitApp
 
 UrlDecode(str) {
