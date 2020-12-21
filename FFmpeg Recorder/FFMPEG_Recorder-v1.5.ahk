@@ -26,7 +26,12 @@ if (SelectedFile = "")
 MsgBox, The user didn't select anything.
 ExitApp
 }
-else
+SplitPath, SelectedFile, exename
+if (exename != "ffmpeg.exe")
+{
+MsgBox, Wrong file!
+ExitApp
+}
 IniWrite, %SelectedFile%, %IniName%, Init, ffmpeg
 SplitPath, SelectedFile,, binpath
 if !FileExist(binpath . "\ffplay.exe")
@@ -43,7 +48,6 @@ MsgBox, You didn't select a folder.
 FileDelete, %IniName%
 ExitApp
 }
-else
 IniWrite, %OutputVar%, %IniName%, Init, outputfolder
 IniWrite, mp4, %IniName%, Options, container
 IniWrite, -c copy, %IniName%, Options, ffcommand
