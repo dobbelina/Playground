@@ -15,7 +15,7 @@ FormatTime, Datefile,, yyyy-MM-dd_HH-mm-ss.
 Drawtext := "-vf " . chr(34) . "drawtext=text='%{pts\:hms}':box=1:x=(w-tw)/2:y=h-(2*lh):fontsize=(h/30)" . chr(34)
 if (A_ScriptDir = A_AppData . "\Kodi\userdata")
 {
-msgbox, Do Not Run From The Userdata Folder!
+MsgBox, 48, Attention!, Do Not Run From The Userdata Folder!
 ExitApp
 }
 if !FileExist(IniName)
@@ -23,20 +23,20 @@ if !FileExist(IniName)
 FileSelectFile, SelectedFile, 3, , Select ffmpeg.exe, ffmpeg (*.exe)
 if (SelectedFile = "")
 {
-MsgBox, The user didn't select anything.
+MsgBox, 48, Attention!, The user didn't select anything.
 ExitApp
 }
 SplitPath, SelectedFile, exename
 if (exename != "ffmpeg.exe")
 {
-MsgBox, Wrong file!
+MsgBox, 48, Attention!, Wrong file!
 ExitApp
 }
 IniWrite, %SelectedFile%, %IniName%, Init, ffmpeg
 SplitPath, SelectedFile,, binpath
 if !FileExist(binpath . "\ffplay.exe")
 {
-msgbox, ffplay.exe is missing in %binpath%
+MsgBox, 48, Attention!, ffplay.exe is missing in %binpath%
 FileDelete, %IniName%
 ExitApp
 }
@@ -44,7 +44,7 @@ IniWrite, %binpath%\ffplay.exe, %IniName%, Init, ffplay
 FileSelectFolder, OutputVar, , 3, Choose Output Folder
 if OutputVar =
 {
-MsgBox, You didn't select a folder.
+MsgBox, 48, Attention!, You didn't select a folder.
 FileDelete, %IniName%
 ExitApp
 }
@@ -96,7 +96,7 @@ Drawtext =
 PathFile := chr(34) . outputfolder . "\" . Datefile . container . chr(34)
 Recorder := chr(34) . ffmpeg . chr(34)
 Mplayer := chr(34) . ffplay . chr(34)
-Progress,B fs16 c0 zh0  w300 h80 Cblack,Press "1" Download Only`nPress "2" Download + Watch`nPress "3" Watch Only,,Arial
+Progress,B2 fs16 c0 zh0  w300 h80 Cblack,Press "1" Download Only`nPress "2" Download + Watch`nPress "3" Watch Only,,Arial
 Loop {
 If (getKeyState("1", "P")) or (getKeyState("Numpad1", "P"))
 gosub, Label1
@@ -110,8 +110,6 @@ Sleep 50
 label1:
 Progress, off
 Run, %Recorder% %Uagent% %Referer% %Cookie% -i %Link% %ffcommand% %PathFile%
-WinWait, ahk_exe ffmpeg.exe, , 2
-WinWaitClose, ahk_exe ffmpeg.exe
 ExitApp
 label2:
 Progress, off
