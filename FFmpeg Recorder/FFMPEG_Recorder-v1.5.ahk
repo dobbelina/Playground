@@ -80,7 +80,7 @@ IniRead, outputfolder, ffmpeg.ini, Init, outputfolder
 IniRead, container, ffmpeg.ini, Options, container
 IniRead, ffcommand, ffmpeg.ini, Options, ffcommand
 IniRead, timestamp, ffmpeg.ini, Options, timestamp
-RegExMatch(Incoming, "^http.*?(?=[|]|$)|^rtmp.*?(?=[|]|$)", Link0)
+RegExMatch(Incoming, "^[a-zA-Z]{1,5}:.*?(?=[|]|$)", Link0)
 Link:= chr(34) . Link0 . chr(34)
 RegExMatch(Incoming, "(?i)(?<=user-agent=)(.*?)(?=&|$)", Uagent0)
 if (Uagent0)
