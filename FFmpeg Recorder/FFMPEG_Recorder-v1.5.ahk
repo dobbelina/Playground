@@ -113,6 +113,12 @@ Run, %Recorder% %Uagent% %Referer% %Cookie% -i %Link% %ffcommand% %PathFile%
 ExitApp
 label2:
 Progress, off
+RegExMatch(Incoming, "^[A-Z]:", Local)
+if (Local)
+{
+MsgBox, 48, Attention!, Only works for streaming formats
+ExitApp
+}
 Run, %comspec% /c "%Recorder% %Uagent% %Referer% %Cookie% -i %Link% %ffcommand% %PathFile% -c copy -f mpegts - | %Mplayer% -fs %Drawtext% -autoexit -"
 WinWait, ahk_exe cmd.exe, , 2
 WinWaitClose, ahk_exe cmd.exe
