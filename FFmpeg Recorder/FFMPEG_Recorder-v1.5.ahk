@@ -116,7 +116,8 @@ Progress, off
 RegExMatch(Incoming, "^[A-Z]:", Local)
 if (Local)
 {
-MsgBox, 48, Attention!, Only works for streaming formats
+Progress,B2 fs18 c0 zh0  w365 h30 CWcf9797 Cblack,Only works for streaming formats,,Arial
+Sleep, 1500
 ExitApp
 }
 Run, %comspec% /c "%Recorder% %Uagent% %Referer% %Cookie% -i %Link% %ffcommand% %PathFile% -c copy -f mpegts - | %Mplayer% -fs %Drawtext% -autoexit -"
