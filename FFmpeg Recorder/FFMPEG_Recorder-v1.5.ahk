@@ -96,7 +96,7 @@ Drawtext =
 PathFile := chr(34) . outputfolder . "\" . Datefile . container . chr(34)
 Recorder := chr(34) . ffmpeg . chr(34)
 Mplayer := chr(34) . ffplay . chr(34)
-Progress,B2 fs16 c0 zh0  w300 h80 cbBlack,Press "1" Download Only`nPress "2" Download + Watch`nPress "3" Watch Only,,Arial
+Progress,B2 fs16 c0 zh0  w300 h80 cbBlack,Press "1" Download Only`nPress "2" Download + Watch`nPress "3" Watch Only
 Loop {
 If (getKeyState("1", "P")) or (getKeyState("Numpad1", "P"))
 gosub, Label1
@@ -113,13 +113,6 @@ Run, %Recorder% %Uagent% %Referer% %Cookie% -i %Link% %ffcommand% %PathFile%
 ExitApp
 label2:
 Progress, off
-RegExMatch(Incoming, "^[A-Z]:", Local)
-if (Local)
-{
-Progress,B2 fs18 c0 zh0  w365 h30 CWcf9797 cbBlack,Only works for streaming formats,,Arial
-Sleep, 1500
-ExitApp
-}
 Run, %comspec% /c "%Recorder% %Uagent% %Referer% %Cookie% -i %Link% %ffcommand% %PathFile% -c copy -f mpegts - | %Mplayer% -fs %Drawtext% -autoexit -"
 WinWait, ahk_exe cmd.exe, , 2
 WinWaitClose, ahk_exe cmd.exe
